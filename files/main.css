@@ -10,8 +10,8 @@ html, body {height:100%; overflow:hidden; text-rendering:optimizeLegibility; fon
 	font-family: 'Josefin Slab';
 	font-style: normal;
 	font-weight: 700;
-	src: url('fonts.woff2') format('woff2');
-	unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+	src: url('hello.ttf')
+	/* unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; */
   }
 /* HTML */
 .body {background:#181d28; z-index:0;}
@@ -19,8 +19,9 @@ html, body {height:100%; overflow:hidden; text-rendering:optimizeLegibility; fon
 .header .mask, .header .world {animation:none;}
 
 /* Text */
-.header h1, .article h2, .article h3 {z-index:999999; text-align:center; width:100%; position:absolute; top:50%; font-family:'Josefin Slab'; font-size:100px; color:#e41e3f; text-transform:uppercase;}
+.header h1,.header h2, .article h2, .article h3 {z-index:999999; text-align:center; width:100%; position:absolute; top:50%; font-family:'Josefin Slab'; font-size:50px; color:#9AD1D8; text-transform:uppercase;}
 .header h1 {margin-top:-200px;}
+
 .article h2, .article h3 {animation:show 1s backwards;}
 .article h2 {margin-top:-230px; animation-delay:11s;}
 .article h3 {margin-top:130px; animation-delay:11.3s;}
