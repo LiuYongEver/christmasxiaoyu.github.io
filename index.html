@@ -88,11 +88,11 @@
 			var audio = $('audio')[0], animation = $('article');
 			$('.play').click(function() {
 				audio.play();
-				animation.css('display','block');
+			});
+			     animation.css('display','block');
 				$('.header .mask').remove();
 				$('.header .play').css('opacity','0');
 				$('h1').fadeOut(800);
-			});
 		});
 
 		$(window).load(function() {
