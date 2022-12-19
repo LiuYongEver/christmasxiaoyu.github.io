@@ -28,6 +28,7 @@ html, body {height:100%; overflow:hidden; text-rendering:optimizeLegibility; fon
 
 @keyframes show {from{opacity:0;}}
 
+a {font-family:'Josefin Slab';text-decoration:none;color:#cb98f3;}
 
 /* Load/Play */
 .play {width:76px; height:76px; position:absolute; top:50%; left:50%; margin:-38px 0 0 -38px; z-index:999999; cursor:pointer; transition:all .5s; border-radius:100px;}
